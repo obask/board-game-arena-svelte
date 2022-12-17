@@ -1,10 +1,14 @@
 <script>
 	import Sidebar from './Sidebar.svelte';
+
+    import { page } from '$app/stores'
+
 </script>
 
 <Sidebar />
 
 <div class="main-content">
+    <div>Name: {$page.data.user.name}</div>
     <slot />
 </div>
 

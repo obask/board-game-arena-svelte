@@ -17,8 +17,9 @@
 		} else {
 			// display an error message
 			alert('Invalid name');
-		}
 	}
+}
+
 </script>
 
 {#if form?.success}

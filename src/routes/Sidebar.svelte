@@ -6,6 +6,7 @@
 
 <div class="sidebar">
     <a href="{base}/login">Login</a>
+    <a href="{base}/signup">Sign up</a>
     <a href="{base}/page2">Item 2</a>
     <a href="{base}/page3">Item 3</a>
     <a href="{base}/page4">Item 4</a>
